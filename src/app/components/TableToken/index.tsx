@@ -13,15 +13,8 @@ import IconToken from '../IconToken';
 import { ButtonBuy, GainLossValueWrapper } from './styled';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
-import { Box, Button } from '@mui/material';
+import { Box } from '@mui/material';
 interface ITokenListBody {
-  // unused
-  // color: string;
-  // currency_id: number;
-  // decimal_point: number;
-  // is_limit_order_enabled: boolean;
-  // is_upcoming: boolean;
-  // listingDate: string;
   currencyGroup: string;
   currencySymbol: string;
   logo: string;
